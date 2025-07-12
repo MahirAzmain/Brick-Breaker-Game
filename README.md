@@ -79,22 +79,25 @@ Set up the project on your local machine in just a few steps.
 *Clone the Repository*
 ```bash
 git clone https://github.com/MahirAzmain/Brick-Breaker-Game.git
-
-
-
+```
+*Navigate to the Project Folder*
+```bash
+cd Brick-Breaker-Game
+```
+*Open in NetBeans*
+1. Launch NetBeans
+2. Go to **File > Open Project**
+3. Select the cloned `Brick-Breaker-Game` folder
+4. Click **Open Project**
 
 ## 🤝 Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-Fork the Project
-
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-
-Push to the Branch (git push origin feature/AmazingFeature)
-
-Open a Pull Request
+1. Fork the Project
+2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
+3. Commit your Changes (git commit -m 'Add some AmazingFeature')
+4. Push to the Branch (git push origin feature/AmazingFeature)
+5. Open a Pull Request
 
 ## 📞 Contact
 Mahir Azmain Haque  - mahirazmain7@gmail.com
