@@ -6,7 +6,7 @@ I developed a brick-breaker game using Java. I use a JFrame and a JPanel to draw
 A classic arcade-style Brick Breaker game developed in Java as a 2nd-year university project. This game offers smooth gameplay and responsive controls, 
 challenging players to break all bricks using a bouncing ball and a paddle.
 
-✨ Features
+## ✨ Features
 Classic Gameplay: Experience the timeless fun of breaking bricks to clear levels.
 
 Keyboard Controls: Intuitive paddle movement using the arrow keys for precise control.
@@ -23,7 +23,7 @@ Leaderboard: Compete with others and see who can achieve the highest scores.
 
 Help Section: Access in-game instructions and tips to get started.
 
-🚀 Tech Stack
+## 🚀 Tech Stack
 Language: Java
 
 IDE: NetBeans (recommended), IntelliJ IDEA
@@ -38,15 +38,15 @@ Build Tool: Apache Ant for project compilation and management.
 
 Design Principles: Employs clean Object-Oriented Programming (OOP) principles for maintainable and scalable code.
 
-🛠️ Getting Started
+## 🛠️ Getting Started
 To get a copy of the project up and running on your local machine for development and testing purposes, follow these steps.
 
-Prerequisites
+# Prerequisites
 Java Development Kit (JDK) 8 or higher
 
 NetBeans IDE (recommended) or any other Java IDE (e.g., IntelliJ IDEA)
 
-Installation
+# Installation
 Clone the repository:
 
 git clone https://github.com/MahirAzmain/Brick-Breaker-Game.git
@@ -62,14 +62,14 @@ Go to File > Open Project.
 
 Navigate to the cloned BrickBreaker folder and select it.
 
-Build and Run
+# Build and Run
 In NetBeans, right-click the project in the Projects window.
 
 Select Build to compile the project.
 
 Right-click the project again and select Run to launch the game.
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
 Fork the Project
@@ -82,11 +82,11 @@ Push to the Branch (git push origin feature/AmazingFeature)
 
 Open a Pull Request
 
-📞 Contact
+## 📞 Contact
 Mahir Azmain Haque  - mahirazmain7@gmail.com
 
-**Project Proposal:**
+## **Project Proposal:**
 [2007118 Desktop.docx](https://github.com/user-attachments/files/19014022/2007118.Desktop.docx)
 
-Infographics:
+## Infographics:
 https://g.co/gemini/share/5064f8d5c5a5
