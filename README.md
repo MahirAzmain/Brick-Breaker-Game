@@ -6,7 +6,8 @@ I developed a brick-breaker game using Java. I use a JFrame and a JPanel to draw
 A classic arcade-style Brick Breaker game developed in Java as a 2nd-year university project. This game offers smooth gameplay and responsive controls, 
 challenging players to break all bricks using a bouncing ball and a paddle.
 
-✨ Features
+## ✨ Features
+
 🎮 Classic Gameplay
 Enjoy the timeless fun of breaking bricks to clear each level.
 
@@ -44,64 +45,6 @@ Access in-game instructions and tips to get started quickly.
 # Leaderboard:
 ![WhatsApp Image 2025-07-13 at 00 42 58](https://github.com/user-attachments/assets/b7e6699c-3d6d-400f-a32d-ac1e3781d2a1)
 
-
-## Directory Structure:
-
-mahirazmain-brick-breaker-game/
-├── README.md
-├── build.xml
-├── LoginPage.iml
-├── manifest.mf
-├── lib/
-│   └── nblibraries.properties
-├── nbproject/
-│   ├── build-impl.xml
-│   ├── genfiles.properties
-│   ├── project.properties
-│   ├── project.xml
-│   └── private/
-│       ├── config.properties
-│       ├── private.properties
-│       └── private.xml
-└── src/
-    ├── brickbreaker/              # Core game logic and levels
-    │   ├── BrickBreaker.java
-    │   ├── GamePlay.java
-    │   ├── GamePlayEasy.java
-    │   ├── GamePlayMedium.java
-    │   ├── GamePlayHard.java
-    │   ├── MapGenerator.java
-    │   ├── MapGeneratorEasy.java
-    │   ├── MapGeneratorMedium.java
-    │   └── MapGeneratorHard.java
-    ├── Login/                     # Login and registration UI
-    │   ├── Login.form
-    │   ├── Login.java
-    │   ├── LoginAndRegister.form
-    │   ├── LoginAndRegister.java
-    │   ├── PanelCustom.java
-    │   ├── Register.form
-    │   └── Register.java
-    ├── Main/                      # App entry point, menus, leaderboard, help, DB
-    │   ├── DBConnection.java
-    │   ├── DifficultyMenu.form
-    │   ├── DifficultyMenu.java
-    │   ├── helpPage.form
-    │   ├── helpPage.java
-    │   ├── JsonParserApp.java
-    │   ├── JTableUtilities.java
-    │   ├── LeaderBoard.form
-    │   ├── LeaderBoard.java
-    │   ├── Main.form
-    │   ├── Main.java
-    │   ├── MainMenu.form
-    │   └── MainMenu.java
-    └── Swing/                     # Custom UI components
-        ├── Button.java
-        ├── EventLogin.java
-        ├── Password.java
-        └── TextField.java
-
 ## 🚀Tech Stack & Tools
 
 🖥 Language
@@ -127,50 +70,36 @@ Apache Ant for project compilation, build automation, and dependency management
 Follows clean Object-Oriented Programming (OOP) principles to ensure modular, maintainable, and scalable code
 
 ## 🛠️ Getting Started
-To get a copy of the project up and running on your local machine for development and testing purposes, follow these steps.
 
-# Prerequisites
-Java Development Kit (JDK) 8 or higher
+Set up the project on your local machine in just a few steps.
 
-NetBeans IDE (recommended) or any other Java IDE (e.g., IntelliJ IDEA)
+### ✅ Prerequisites
+- Java JDK 8 or higher  
+- NetBeans IDE (recommended) or any Java IDE like IntelliJ IDEA
 
-# Installation
-🚀 Getting Started
-Follow the steps below to set up and run the project locally.
+### 📦 Installation
 
-1. Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/MahirAzmain/Brick-Breaker-Game.git
-2. Navigate to the Project Directory
-bash
-Copy
-Edit
-cd Brick-Breaker-Game
-3. Open the Project in NetBeans
-Launch NetBeans.
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/MahirAzmain/Brick-Breaker-Game.git
+2. **Navigate to the Project Folder
+   ```bash
+   cd Brick-Breaker-Game
+3. **Open in NetBeans
 
-Go to File > Open Project.
+Launch NetBeans
 
-Browse to the cloned Brick-Breaker-Game directory.
+Go to File > Open Project
 
-Select the project folder and click Open Project.
+Select the cloned Brick-Breaker-Game folder
 
-Clean and build the project using Run > Clean and Build Project.
+Click Open Project
+4. **▶️ Build and Run
+Right-click the project in the Projects panel
 
-Run the project using Run > Run Project or press F6.
+Click Build to compile
 
-Go to File > Open Project.
-
-Navigate to the cloned BrickBreaker folder and select it.
-
-# Build and Run
-In NetBeans, right-click the project in the Projects window.
-
-Select Build to compile the project.
-
-Right-click the project again and select Run to launch the game.
+Click Run or press F6 to launch the game
 
 ## 🤝 Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
