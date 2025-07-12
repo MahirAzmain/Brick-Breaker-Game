@@ -6,109 +6,125 @@ I developed a brick-breaker game using Java. I use a JFrame and a JPanel to draw
 A classic arcade-style Brick Breaker game developed in Java as a 2nd-year university project. This game offers smooth gameplay and responsive controls, 
 challenging players to break all bricks using a bouncing ball and a paddle.
 
-## ✨ Features
- Classic Gameplay: Experience the timeless fun of breaking bricks to clear levels.
+✨ Features
+🎮 Classic Gameplay
+Enjoy the timeless fun of breaking bricks to clear each level.
 
- Keyboard Controls: Intuitive paddle movement using the arrow keys for precise control.
+⌨️ Keyboard Controls
+Move the paddle intuitively using the arrow keys for precise control.
 
- Score Tracking: Keep an eye on your progress with real-time score display.
+📈 Score Tracking
+Monitor your progress in real time with a live score display.
 
- Game Over & Victory Logic: Clear all bricks to win, or lose lives if you miss the ball, adding a layer of challenge.
+💥 Game Over & Victory Logic
+Lose lives if you miss the ball, or win by clearing all bricks.
 
- Multiple Difficulty Levels: Choose between Easy, Medium, and Hard modes, each featuring unique brick layouts and challenges.
+⚙️ Multiple Difficulty Levels
+Select from Easy, Medium, or Hard modes, each with unique brick layouts and increasing challenges.
 
- User Authentication: Secure login and registration system to manage player accounts.
+🔐 User Authentication
+Secure login and registration system to manage and protect player accounts.
 
- Leaderboard: Compete with others and see who can achieve the highest scores.
+🏆 Leaderboard
+Compete globally and track high scores across all players.
 
- Help Section: Access in-game instructions and tips to get started.
+🆘 Help Section
+Access in-game instructions and tips to get started quickly.
 
-# Leaderboard:
-![WhatsApp Image 2025-07-13 at 00 42 58](https://github.com/user-attachments/assets/b7e6699c-3d6d-400f-a32d-ac1e3781d2a1)
-# Difficulty at easy:
-![WhatsApp Image 2025-07-13 at 00 42 58 (1)](https://github.com/user-attachments/assets/30ac8055-8fa3-498e-9f7e-c18feddc44b1)
-# Difficulty at hard:
-![WhatsApp Image 2025-07-13 at 00 42 58 (2)](https://github.com/user-attachments/assets/2029702a-a36b-401d-b299-7ccfbbbb730e)
+# Sign Up and Login page:
+![WhatsApp Image 2025-07-13 at 00 42 59 (2)](https://github.com/user-attachments/assets/ea80a4fc-6f33-4d9c-923f-e818f67ea3eb)
 # Menu bar:
 ![WhatsApp Image 2025-07-13 at 00 42 59](https://github.com/user-attachments/assets/1acda882-b512-4022-9a24-829d1f688b8e)
 # Starting page
 ![WhatsApp Image 2025-07-13 at 00 42 59 (1)](https://github.com/user-attachments/assets/2caec684-8ef2-4a33-bdba-64ebbb3de353)
-# Sign Up and Login page:
-![WhatsApp Image 2025-07-13 at 00 42 59 (2)](https://github.com/user-attachments/assets/ea80a4fc-6f33-4d9c-923f-e818f67ea3eb)
+# Difficulty at easy:
+![WhatsApp Image 2025-07-13 at 00 42 58 (1)](https://github.com/user-attachments/assets/30ac8055-8fa3-498e-9f7e-c18feddc44b1)
+# Difficulty at hard:
+![WhatsApp Image 2025-07-13 at 00 42 58 (2)](https://github.com/user-attachments/assets/2029702a-a36b-401d-b299-7ccfbbbb730e)
+# Leaderboard:
+![WhatsApp Image 2025-07-13 at 00 42 58](https://github.com/user-attachments/assets/b7e6699c-3d6d-400f-a32d-ac1e3781d2a1)
 
 
 ## Directory Structure:
-Directory structure:
-└── mahirazmain-brick-breaker-game/
-    ├── README.md
-    ├── build.xml
-    ├── LoginPage.iml
-    ├── manifest.mf
-    ├── lib/
-    │   └── nblibraries.properties
-    ├── nbproject/
-    │   ├── build-impl.xml
-    │   ├── genfiles.properties
-    │   ├── project.properties
-    │   ├── project.xml
-    │   └── private/
-    │       ├── config.properties
-    │       ├── private.properties
-    │       └── private.xml
-    └── src/
-        ├── brickbreaker/
-        │   ├── BrickBreaker.java
-        │   ├── GamePlay.java
-        │   ├── GamePlayEasy.java
-        │   ├── GamePlayHard.java
-        │   ├── GamePlayMedium.java
-        │   ├── MapGenerator.java
-        │   ├── MapGeneratorEasy.java
-        │   ├── MapGeneratorHard.java
-        │   └── MapGeneratorMedium.java
-        ├── Login/
-        │   ├── Login.form
-        │   ├── Login.java
-        │   ├── LoginAndRegister.form
-        │   ├── LoginAndRegister.java
-        │   ├── PanelCustom.java
-        │   ├── Register.form
-        │   └── Register.java
-        ├── Main/
-        │   ├── DBConnection.java
-        │   ├── DifficultyMenu.form
-        │   ├── DifficultyMenu.java
-        │   ├── helpPage.form
-        │   ├── helpPage.java
-        │   ├── JsonParserApp.java
-        │   ├── JTableUtilities.java
-        │   ├── LeaderBoard.form
-        │   ├── LeaderBoard.java
-        │   ├── Main.form
-        │   ├── Main.java
-        │   ├── MainMenu.form
-        │   └── MainMenu.java
-        └── Swing/
-            ├── Button.java
-            ├── EventLogin.java
-            ├── Password.java
-            └── TextField.java
 
+mahirazmain-brick-breaker-game/
+├── README.md
+├── build.xml
+├── LoginPage.iml
+├── manifest.mf
+├── lib/
+│   └── nblibraries.properties
+├── nbproject/
+│   ├── build-impl.xml
+│   ├── genfiles.properties
+│   ├── project.properties
+│   ├── project.xml
+│   └── private/
+│       ├── config.properties
+│       ├── private.properties
+│       └── private.xml
+└── src/
+    ├── brickbreaker/              # Core game logic and levels
+    │   ├── BrickBreaker.java
+    │   ├── GamePlay.java
+    │   ├── GamePlayEasy.java
+    │   ├── GamePlayMedium.java
+    │   ├── GamePlayHard.java
+    │   ├── MapGenerator.java
+    │   ├── MapGeneratorEasy.java
+    │   ├── MapGeneratorMedium.java
+    │   └── MapGeneratorHard.java
+    ├── Login/                     # Login and registration UI
+    │   ├── Login.form
+    │   ├── Login.java
+    │   ├── LoginAndRegister.form
+    │   ├── LoginAndRegister.java
+    │   ├── PanelCustom.java
+    │   ├── Register.form
+    │   └── Register.java
+    ├── Main/                      # App entry point, menus, leaderboard, help, DB
+    │   ├── DBConnection.java
+    │   ├── DifficultyMenu.form
+    │   ├── DifficultyMenu.java
+    │   ├── helpPage.form
+    │   ├── helpPage.java
+    │   ├── JsonParserApp.java
+    │   ├── JTableUtilities.java
+    │   ├── LeaderBoard.form
+    │   ├── LeaderBoard.java
+    │   ├── Main.form
+    │   ├── Main.java
+    │   ├── MainMenu.form
+    │   └── MainMenu.java
+    └── Swing/                     # Custom UI components
+        ├── Button.java
+        ├── EventLogin.java
+        ├── Password.java
+        └── TextField.java
 
-## 🚀 Tech Stack
-Language: Java
+## 🚀Tech Stack & Tools
 
-IDE: NetBeans (recommended), IntelliJ IDEA
+🖥 Language
+Java
 
-UI Library: Java AWT/Swing for robust graphics and event handling.
+🧰 IDE
+NetBeans (recommended) or IntelliJ IDEA
 
-Database: Integrated with a database (details in DBConnection.java) for user and leaderboard data.
+🎨 UI Library
+Java AWT/Swing for building a responsive interface with robust graphics and event handling
 
-JSON Processing: Utilizes Google Gson library for efficient JSON parsing.
+🗄 Database
+Integrated database for storing user accounts and leaderboard scores
+[See DBConnection.java for connection details]
 
-Build Tool: Apache Ant for project compilation and management.
+📦 JSON Processing
+Google Gson library for efficient JSON parsing and handling
 
-Design Principles: Employs clean Object-Oriented Programming (OOP) principles for maintainable and scalable code.
+⚙️ Build Tool
+Apache Ant for project compilation, build automation, and dependency management
+
+🧑‍💻 Design Principles
+Follows clean Object-Oriented Programming (OOP) principles to ensure modular, maintainable, and scalable code
 
 ## 🛠️ Getting Started
 To get a copy of the project up and running on your local machine for development and testing purposes, follow these steps.
@@ -119,16 +135,31 @@ Java Development Kit (JDK) 8 or higher
 NetBeans IDE (recommended) or any other Java IDE (e.g., IntelliJ IDEA)
 
 # Installation
-Clone the repository:
+🚀 Getting Started
+Follow the steps below to set up and run the project locally.
 
+1. Clone the Repository
+bash
+Copy
+Edit
 git clone https://github.com/MahirAzmain/Brick-Breaker-Game.git
-
-Navigate to the project directory:
-
-cd BrickBreaker
-
-Setup in NetBeans
+2. Navigate to the Project Directory
+bash
+Copy
+Edit
+cd Brick-Breaker-Game
+3. Open the Project in NetBeans
 Launch NetBeans.
+
+Go to File > Open Project.
+
+Browse to the cloned Brick-Breaker-Game directory.
+
+Select the project folder and click Open Project.
+
+Clean and build the project using Run > Clean and Build Project.
+
+Run the project using Run > Run Project or press F6.
 
 Go to File > Open Project.
 
