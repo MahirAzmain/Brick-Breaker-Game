@@ -76,24 +76,12 @@ Set up the project on your local machine in just a few steps.
 - NetBeans IDE (recommended) or any Java IDE like IntelliJ IDEA
 
 # 📦 Installation
+*Clone the Repository*
+```bash
+git clone https://github.com/MahirAzmain/Brick-Breaker-Game.git
 
- Clone the Repository
-   ```bash
-   git clone https://github.com/MahirAzmain/Brick-Breaker-Game.git
 
- *Navigate to the Project Folder*
-   ```bash
-   cd Brick-Breaker-Game
 
- *Open in NetBeans*
- *Launch NetBeans*
- *Go to File > Open Project*
- *Select the cloned Brick-Breaker-Game folder*
- *Click Open Project*
- *▶️ Build and Run*
- 1. Right-click the project in the Projects panel
- 2. Click Build to compile
- 3 .Click Run or press F6 to launch the game
 
 ## 🤝 Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
