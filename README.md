@@ -6,28 +6,28 @@ challenging players to break all bricks using a bouncing ball and a paddle.
 
 ## ✨ Features
 
-🎮 Classic Gameplay
+🎮 Classic Gameplay:
 Enjoy the timeless fun of breaking bricks to clear each level.
 
-⌨️ Keyboard Controls
+⌨️ Keyboard Controls:
 Move the paddle intuitively using the arrow keys for precise control.
 
-📈 Score Tracking
+📈 Score Tracking:
 Monitor your progress in real time with a live score display.
 
-💥 Game Over & Victory Logic
+💥 Game Over & Victory Logic:
 Lose lives if you miss the ball, or win by clearing all bricks.
 
-⚙️ Multiple Difficulty Levels
+⚙️ Multiple Difficulty Levels:
 Select from Easy, Medium, or Hard modes, each with unique brick layouts and increasing challenges.
 
-🔐 User Authentication
+🔐 User Authentication:
 Secure login and registration system to manage and protect player accounts.
 
-🏆 Leaderboard
+🏆 Leaderboard:
 Compete globally and track high scores across all players.
 
-🆘 Help Section
+🆘 Help Section:
 Access in-game instructions and tips to get started quickly.
 
 # Sign Up and Login page:
