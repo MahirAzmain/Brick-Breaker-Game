@@ -34,7 +34,7 @@ Access in-game instructions and tips to get started quickly.
 ![WhatsApp Image 2025-07-13 at 00 42 59 (2)](https://github.com/user-attachments/assets/ea80a4fc-6f33-4d9c-923f-e818f67ea3eb)
 # Menu bar:
 ![WhatsApp Image 2025-07-13 at 00 42 59](https://github.com/user-attachments/assets/1acda882-b512-4022-9a24-829d1f688b8e)
-# Starting page
+# Starting page:
 ![WhatsApp Image 2025-07-13 at 00 42 59 (1)](https://github.com/user-attachments/assets/2caec684-8ef2-4a33-bdba-64ebbb3de353)
 # Difficulty at easy:
 ![WhatsApp Image 2025-07-13 at 00 42 58 (1)](https://github.com/user-attachments/assets/30ac8055-8fa3-498e-9f7e-c18feddc44b1)
@@ -45,26 +45,26 @@ Access in-game instructions and tips to get started quickly.
 
 ## 🚀Tech Stack & Tools
 
-🖥 Language
+🖥 Language:
 Java
 
-🧰 IDE
+🧰 IDE:
 NetBeans (recommended) or IntelliJ IDEA
 
-🎨 UI Library
+🎨 UI Library:
 Java AWT/Swing for building a responsive interface with robust graphics and event handling
 
-🗄 Database
+🗄 Database:
 Integrated database for storing user accounts and leaderboard scores
 [See DBConnection.java for connection details]
 
-📦 JSON Processing
+📦 JSON Processing:
 Google Gson library for efficient JSON parsing and handling
 
-⚙️ Build Tool
+⚙️ Build Tool:
 Apache Ant for project compilation, build automation, and dependency management
 
-🧑‍💻 Design Principles
+🧑‍💻 Design Principles:
 Follows clean Object-Oriented Programming (OOP) principles to ensure modular, maintainable, and scalable code
 
 ## 🛠️ Getting Started
