@@ -1,4 +1,4 @@
-### BrickBreaker Game
+##### BrickBreaker Game
 
 # Java Game Programming for Desktop
 
@@ -79,7 +79,7 @@ Set up the project on your local machine in just a few steps.
 
 # 📦 Installation
 
- *Clone the Repository*
+ Clone the Repository
    ```bash
    git clone https://github.com/MahirAzmain/Brick-Breaker-Game.git
 
