@@ -1,5 +1,3 @@
-##### BrickBreaker Game
-
 # Java Game Programming for Desktop
 
 I developed a brick-breaker game using Java. I use a JFrame and a JPanel to draw different graphics, making this game work perfectly.
