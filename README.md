@@ -1,28 +1,27 @@
 ## BrickBreaker Game
 
 # Java Game Programming for Desktop
-<br>
 
 I developed a brick-breaker game using Java. I use a JFrame and a JPanel to draw different graphics, making this game work perfectly.
 A classic arcade-style Brick Breaker game developed in Java as a 2nd-year university project. This game offers smooth gameplay and responsive controls, 
 challenging players to break all bricks using a bouncing ball and a paddle.
 
 ## ✨ Features
-# Classic Gameplay: Experience the timeless fun of breaking bricks to clear levels.
+ Classic Gameplay: Experience the timeless fun of breaking bricks to clear levels.
 
-# Keyboard Controls: Intuitive paddle movement using the arrow keys for precise control.
+ Keyboard Controls: Intuitive paddle movement using the arrow keys for precise control.
 
-# Score Tracking: Keep an eye on your progress with real-time score display.
+ Score Tracking: Keep an eye on your progress with real-time score display.
 
-# Game Over & Victory Logic: Clear all bricks to win, or lose lives if you miss the ball, adding a layer of challenge.
+ Game Over & Victory Logic: Clear all bricks to win, or lose lives if you miss the ball, adding a layer of challenge.
 
-# Multiple Difficulty Levels: Choose between Easy, Medium, and Hard modes, each featuring unique brick layouts and challenges.
+ Multiple Difficulty Levels: Choose between Easy, Medium, and Hard modes, each featuring unique brick layouts and challenges.
 
-# User Authentication: Secure login and registration system to manage player accounts.
+ User Authentication: Secure login and registration system to manage player accounts.
 
-# Leaderboard: Compete with others and see who can achieve the highest scores.
+ Leaderboard: Compete with others and see who can achieve the highest scores.
 
-# Help Section: Access in-game instructions and tips to get started.
+ Help Section: Access in-game instructions and tips to get started.
 
 # Leaderboard:
 ![WhatsApp Image 2025-07-13 at 00 42 58](https://github.com/user-attachments/assets/b7e6699c-3d6d-400f-a32d-ac1e3781d2a1)
@@ -36,6 +35,64 @@ challenging players to break all bricks using a bouncing ball and a paddle.
 ![WhatsApp Image 2025-07-13 at 00 42 59 (1)](https://github.com/user-attachments/assets/2caec684-8ef2-4a33-bdba-64ebbb3de353)
 # Sign Up and Login page:
 ![WhatsApp Image 2025-07-13 at 00 42 59 (2)](https://github.com/user-attachments/assets/ea80a4fc-6f33-4d9c-923f-e818f67ea3eb)
+
+
+## Directory Structure:
+Directory structure:
+└── mahirazmain-brick-breaker-game/
+    ├── README.md
+    ├── build.xml
+    ├── LoginPage.iml
+    ├── manifest.mf
+    ├── lib/
+    │   └── nblibraries.properties
+    ├── nbproject/
+    │   ├── build-impl.xml
+    │   ├── genfiles.properties
+    │   ├── project.properties
+    │   ├── project.xml
+    │   └── private/
+    │       ├── config.properties
+    │       ├── private.properties
+    │       └── private.xml
+    └── src/
+        ├── brickbreaker/
+        │   ├── BrickBreaker.java
+        │   ├── GamePlay.java
+        │   ├── GamePlayEasy.java
+        │   ├── GamePlayHard.java
+        │   ├── GamePlayMedium.java
+        │   ├── MapGenerator.java
+        │   ├── MapGeneratorEasy.java
+        │   ├── MapGeneratorHard.java
+        │   └── MapGeneratorMedium.java
+        ├── Login/
+        │   ├── Login.form
+        │   ├── Login.java
+        │   ├── LoginAndRegister.form
+        │   ├── LoginAndRegister.java
+        │   ├── PanelCustom.java
+        │   ├── Register.form
+        │   └── Register.java
+        ├── Main/
+        │   ├── DBConnection.java
+        │   ├── DifficultyMenu.form
+        │   ├── DifficultyMenu.java
+        │   ├── helpPage.form
+        │   ├── helpPage.java
+        │   ├── JsonParserApp.java
+        │   ├── JTableUtilities.java
+        │   ├── LeaderBoard.form
+        │   ├── LeaderBoard.java
+        │   ├── Main.form
+        │   ├── Main.java
+        │   ├── MainMenu.form
+        │   └── MainMenu.java
+        └── Swing/
+            ├── Button.java
+            ├── EventLogin.java
+            ├── Password.java
+            └── TextField.java
 
 
 ## 🚀 Tech Stack
